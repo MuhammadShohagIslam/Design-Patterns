@@ -1,7 +1,7 @@
 /*
     *** Signle Responsibilty Principles ***
         => The idea behind the SRP is that every class, module, or function in a programe
-         should have one responsibilty / purpose in a program.
+         should have one responsibilty / purpose in a program.(freecodebootcamp)
         => If our need additional responsibilty, we can make class per responsibilty.
 */
 
