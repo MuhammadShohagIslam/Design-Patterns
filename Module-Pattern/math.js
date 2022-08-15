@@ -40,4 +40,10 @@ export function square(x) {
 /*
     => by keeping the value private to the module, there is a reduced risk of accidentally polluting the global scope,
 */
-const privateValue = "This is a private value!"
+const privateValue = "This is a private value!";
+
+// we can use default export, but we can only have one default export per module.
+
+export default function division(x, y){
+    return x / y;
+}
