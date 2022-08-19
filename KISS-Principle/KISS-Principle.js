@@ -2,9 +2,8 @@
     *** KISS Principles ***
         => KISS means Keep It Simple Stupid. It does not mean that you
         are studpid. You are very smart and beautiful.
-        => It means that our code should be studpidly simple. It should be so simple, everybody should understand what the system does 
-        and grasp quickly as possible a good mental model of it.
-        => It should be so simple that when we will quit our company , a
+        => It means that our code should be studpidly simple. It should be so simple, everybody should understand what the system does and grasp quickly as possible a good mental model of it.
+        => It should be so simple that when we will quit our company, a
         junior developer should be able to continue our masterpiece.
 
         *** Simple ***
@@ -14,13 +13,14 @@
         
         *** To summarize, here are the two sign of complexity:
             => Too many parts in the system.
-            => Too many iterconnected part in the system.
+            => Too many interconnected part in the system.
 
         *** Business Complexity ***
             => The complexity of a system will also be a good indicator
             of the amount of time developers need to add a new functionality.
 
             *** As a developer, we need to keep the flowing in mind.
+            
                 => If we can avoid complexity, avoid it, as much as we can.
                 => If we can not, we need to make sure that we manage it properly.
                 => To avoid as much buiness complexity as possibile, i 
