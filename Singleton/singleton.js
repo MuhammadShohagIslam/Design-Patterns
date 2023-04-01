@@ -1,8 +1,42 @@
 /*
     *** Singleton Pattern ***
-        => Singletons are classses which can be instantiated once, and can be accessed globally.
+        => Singletons are classses which can be instantiated once, and we can be accessed globally.
         => Single instance can be shared throughout our application, which makes Singletons great for
         managing global state in an application.
+*/
+
+const Singleton = (function () {
+  let instance;
+
+  function createInstance() {
+    const object = new Object("I am the Singleton");
+    return object;
+  }
+
+  return {
+    getInstance: function () {
+      if (!instance) {
+        instance = createInstance();
+      }
+      return instance;
+    },
+    showMessage: function () {
+      console.log("Hello World!");
+    },
+  };
+})();
+
+const instance1 = Singleton.getInstance();
+const instance2 = Singleton.getInstance();
+
+/*
+   The Singleton module has a private variable called instance that holds the 
+   single instance of the class. The createInstance() function creates a new instance of the 
+   class if one does not already exist, and the getInstance() method returns the existing 
+   instance or creates a new one if it does not exist.
+
+   When we call getInstance() twice, we get the same instance of the Singleton class, 
+   because the class ensures that there is only one instance created.
 
 */
 // let counter = 0;
